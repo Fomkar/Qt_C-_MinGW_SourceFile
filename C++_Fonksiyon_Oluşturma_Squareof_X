@@ -17,10 +17,8 @@ void print_square(double x)
 }
 int main(int argc, char *argv[])
 {
-   // printf("Kevserim");
+
     cout<<"omer"<<endl;
-
-
     print_square(7.4);
     return 0;
 }
