@@ -1,0 +1,26 @@
+#include "mainwindow.h"
+#include "iostream"
+#include<stdio.h>
+#include <QApplication>
+
+
+using namespace std;
+
+double square(double x)
+{
+    return x*x;
+}
+
+void print_square(double x)
+{
+    cout<<x<<" 'nin karesi  esittir = "<<square(x)<<"\n";
+}
+int main(int argc, char *argv[])
+{
+   // printf("Kevserim");
+    cout<<"omer"<<endl;
+
+
+    print_square(7.4);
+    return 0;
+}
